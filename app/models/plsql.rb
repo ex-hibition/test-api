@@ -1,0 +1,2 @@
+class Plsql < ApplicationRecord
+end
