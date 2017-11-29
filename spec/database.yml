@@ -1,0 +1,15 @@
+# Change default connection username, password and database.
+# Specify also host and port if not using tnsnames.ora connection.
+default: 
+  adapter: oracle_enhanced
+  database: //localhost:1521/xe
+  username: vagrant
+  password: vagrant
+
+# Add other connection if needed.
+# You can access them with plsql(:other) where :other is connection name specified below.
+
+# other:
+#   username: scott
+#   password: tiger
+#   database: xe

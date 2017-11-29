@@ -57,3 +57,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'ruby-oci8'
 gem 'activerecord-oracle_enhanced-adapter', '~> 1.8.0'
 gem 'ruby-psql'
+gem 'ruby-plsql-spec'
